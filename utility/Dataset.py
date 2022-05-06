@@ -19,6 +19,7 @@ class GivenData(object):
         self.data_format = data_format
         self.separator = separator
         self.logger = logger
+        
 
     def load_data(self):
         side_info, all_data_dict = None, None
